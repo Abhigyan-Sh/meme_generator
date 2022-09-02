@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&family=Exo+2&family=Montserrat:wght@100&display=swap');
+.App {
+  text-align: center;
+  margin: 0 auto;
+  width: fit-content;
+  font-family: 'Montserrat', sans-serif;
+}
+.w-200 {
+  width: 100%;
+}
+.w-100 {
+  width: 400px;
+}
+.bg-P {
+  background: linear-gradient(90deg, #114357, #F29492);
+}
+.flex-row {
+  display: flex;
+  align-items: center;
+}
+.justify-around {
+  justify-content: space-around;
+}
+.img-troll-face {
+  width: 40px;
+  height: 40px;
+}
+.col-W {
+  color: white;
+}
+.m-l-10 {
+  margin-left: 10px;
+}
+.flex-col-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.m-t-30 {
+  margin-top: 30px;
+}
+.m-awe {
+  margin: 30px;
+}
+.grid-top {
+  display: grid;
+/* row1 row2 / col1 col2 */
+  grid-template: 40px 60px / 1fr 1fr;
+  gap: 30px;
+}
+/* new property below */
+.col-To {
+  grid-column: 1 / -1;
+}
+input {
+  padding-left: 10px;
+  border-radius: 5px;
+  border: 1px solid #F29492;
+}
+button {
+  color: #ffffff;
+  border-radius: 5px;
+  border: none;
+  padding-block: 20px;
+}
+.font-S-26 {
+  font-size: 20px;
+}
+.cus1 {
+  position: absolute;
+  font-weight: bolder;
+  font-size: xx-large;
+}
+.cus-btm-lft {
+  bottom: 10px;
+  left: 20px;
+}
+.cus-lft {
+  left: 20px;
+}
+.cus2 {
+  position: relative;
+  color: white;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* new property */
+/* grid-column: 1 / -1; */
+/* grid-template: 40px 60px / 1fr 1fr; */
